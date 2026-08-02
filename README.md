@@ -33,12 +33,12 @@ generative editing.
 
 ## Run these prompts
 
-MiniMax H3 currently runs through MiniMax's own API and the Hailuo product, from roughly
-**$0.13/second**. It is **not yet available through apimodels.app** — we do not list models
-we have not got working. When it runs, it ships, and this repo gets updated the same day.
+**[MiniMax H3 is live on our API](https://apimodels.app/models/minimax-h3)** — $0.145 per
+second of output, native 2K with synchronized audio, 5–15s, and the full multimodal
+reference set (up to 9 images + 3 videos + 3 audio clips). Same endpoint and key as
+everything else below: pay as you go, **$1 free on sign-up**, no subscription.
 
-Meanwhile the image and video models below **are** live on our unified API — one key, one
-endpoint, pay as you go, **$1 free on sign-up**, no subscription.
+So you can take any prompt from this repo and run it without signing up anywhere else.
 
 ### Image models — from **$0.01** per image
 
@@ -56,10 +56,11 @@ endpoint, pay as you go, **$1 free on sign-up**, no subscription.
 **[957 GPT Image 2 prompts →](https://apimodels.app/gpt-image-2-prompts)** — a second
 library, same idea: every prompt with the image it rendered, browsable by category.
 
-### Video models — from **$0.044** per second
+### Video models — from **$0.044** per second · **MiniMax H3 $0.145/s**
 
 | Model | From | vs official list | What it is |
 |---|---|---|---|
+| **[MiniMax H3](https://apimodels.app/models/minimax-h3)** | **$0.145** / s | — | Native 2K + synced audio, 9 ref images + 3 videos + 3 audio |
 | **[Seedance 2.0](https://apimodels.app/models/seedance-2.0)** | **$0.092** / s | — | ByteDance official Ark: 9 reference images + reference video + audio |
 | [Seedance 2.0 Fast](https://apimodels.app/models/seedance-2.0-fast) | **$0.071** / s | — | Same capability, speed/cost tier |
 | [Seedance 2.0 Mini](https://apimodels.app/models/seedance-2.0-mini) | **$0.044** / s | — | Cheapest Seedance tier |
@@ -276,9 +277,10 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ---
 
-> **Liked these?** The clips were made with MiniMax H3, which we do not run yet — but
+> **Liked these?** Run the same prompts yourself —
+> **[MiniMax H3 is live at $0.145/s](https://apimodels.app/models/minimax-h3)**, alongside
 > [GPT Image 2, Nano Banana Pro, Seedance 2.0, Kling V3 and 85+ more](https://apimodels.app/models)
-> are live on one API key at **[apimodels.app](https://apimodels.app)**, $1 free to start.
+> on one API key at **[apimodels.app](https://apimodels.app)**. $1 free to start.
 
 ---
 

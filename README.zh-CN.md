@@ -29,11 +29,11 @@
 
 ## 怎么跑这些提示词
 
-MiniMax H3 目前走 MiniMax 官方 API 和海螺产品，约 **$0.13/秒起**。它**还没有在 apimodels.app 上线** ——
-没调通的模型我们不上架。等它能跑了就上，这个仓库同一天更新。
+**[MiniMax H3 已经在我们的 API 上](https://apimodels.app/zh/models/minimax-h3)** —— 出片 $0.145/秒，
+原生 2K 带同步音频，5–15 秒，多模态参考给全(最多 9 张图 + 3 段视频 + 3 段音频)。
+和下面所有模型同一个端点、同一个 key：按量付费，**注册送 $1**，不用订阅。
 
-下面这些图像和视频模型**已经**在我们的统一 API 上：一个 key、一个端点、按量付费，
-**注册送 $1**，不用订阅。
+所以这个仓库里的任何一条提示词，你都可以直接拿去跑，不用再去别处注册。
 
 ### 图像模型 —— **$0.01** 一张起
 
@@ -51,10 +51,11 @@ MiniMax H3 目前走 MiniMax 官方 API 和海螺产品，约 **$0.13/秒起**�
 **[957 条 GPT Image 2 提示词 →](https://apimodels.app/zh/gpt-image-2-prompts)** ——
 同一套做法的第二个库：每条提示词都配着它生成出来的那张图，按类目浏览。
 
-### 视频模型 —— **$0.044** 一秒起
+### 视频模型 —— **$0.044** 一秒起 · **MiniMax H3 $0.145/秒**
 
 | 模型 | 最低价 | 对比官方 | 是什么 |
 |---|---|---|---|
+| **[MiniMax H3](https://apimodels.app/zh/models/minimax-h3)** | **$0.145** / 秒 | — | 原生 2K + 同步音频，9 图 + 3 视频 + 3 音频参考 |
 | **[Seedance 2.0](https://apimodels.app/zh/models/seedance-2.0)** | **$0.092** / 秒 | — | 字节官方 Ark 直连：9 张参考图 + 参考视频 + 参考音频 |
 | [Seedance 2.0 Fast](https://apimodels.app/zh/models/seedance-2.0-fast) | **$0.071** / 秒 | — | 能力相同的提速降本档 |
 | [Seedance 2.0 Mini](https://apimodels.app/zh/models/seedance-2.0-mini) | **$0.044** / 秒 | — | Seedance 里最便宜的档位 |
@@ -267,9 +268,10 @@ curl -X POST https://apimodels.app/api/v1/images/generations-sync \
 ---
 ---
 
-> **喜欢这些片子？** 它们是 MiniMax H3 生成的，这个模型我们还没上线 —— 但
-> [GPT Image 2、Nano Banana Pro、Seedance 2.0、Kling V3 等 85+ 个模型](https://apimodels.app/zh/models)
-> 已经在 **[apimodels.app](https://apimodels.app)** 上跑，一个 key 全调，注册送 $1。
+> **喜欢这些片子？** 同样的提示词你可以自己跑 ——
+> **[MiniMax H3 已上线，$0.145/秒](https://apimodels.app/zh/models/minimax-h3)**，
+> 和 [GPT Image 2、Nano Banana Pro、Seedance 2.0、Kling V3 等 85+ 个模型](https://apimodels.app/zh/models)
+> 共用一个 key，都在 **[apimodels.app](https://apimodels.app)**。注册送 $1。
 
 ---
 
