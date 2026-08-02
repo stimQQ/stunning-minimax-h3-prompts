@@ -2,6 +2,7 @@
 
 [![Gallery](https://img.shields.io/badge/Browse%20224%20prompts%20with%20video-F5FF60?labelColor=111)](https://apimodels.app/minimax-h3-prompts)
 [![One API](https://img.shields.io/badge/One%20API-85%2B%20models-3158E8)](https://apimodels.app/models)
+[![Pricing](https://img.shields.io/badge/Images%20from%20%240.01%20%C2%B7%20Video%20from%20%240.044%2Fs-1f9e5f)](https://apimodels.app/pricing)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 Curated **MiniMax H3** (Hailuo 3.0) video prompts — every one shown next to the clip it
@@ -39,29 +40,36 @@ we have not got working. When it runs, it ships, and this repo gets updated the 
 Meanwhile the image and video models below **are** live on our unified API — one key, one
 endpoint, pay as you go, **$1 free on sign-up**, no subscription.
 
-### Image models
+### Image models — from **$0.01** per image
 
-| Model | Page | Notes |
-|---|---|---|
-| **GPT Image 2** | [gpt-image-2](https://apimodels.app/models/gpt-image-2) | Native 1K / 2K / 4K, accurate on-image text |
-| GPT Image 2 (all tiers) | [gpt-image-2-all](https://apimodels.app/models/gpt-image-2-all) | Every resolution/quality tier on one model string |
-| **Nano Banana 2** | [nanobanana2](https://apimodels.app/models/nanobanana2) | Gemini image generation, fast and cheap |
-| Nano Banana 2 Lite | [nanobanana-2-lite](https://apimodels.app/models/nanobanana-2-lite) | Cheapest tier |
-| **Nano Banana Pro** | [nanobananapro](https://apimodels.app/models/nanobananapro) | Highest fidelity of the Banana line |
-| Nano Banana Pro Lite | [nanobananapro-lite](https://apimodels.app/models/nanobananapro-lite) | Pro quality at a lower tier |
-| Gemini 3 Pro Image | [gemini-3-pro-image](https://apimodels.app/models/gemini-3-pro-image) | Reference images, strong prompt adherence |
-| Gemini 3.1 Flash Image | [gemini-3.1-flash-image](https://apimodels.app/models/gemini-3.1-flash-image) | Fastest of the Gemini image line |
+| Model | From | vs official list | What it is |
+|---|---|---|---|
+| **[GPT Image 2](https://apimodels.app/models/gpt-image-2)** | **$0.025** / image (1K) | **−53%** | Native 1K / 2K / 4K, accurate on-image text |
+| [GPT Image 2 (all tiers)](https://apimodels.app/models/gpt-image-2-all) | **$0.01** / image | **−53%** | Every resolution × quality tier on one model string |
+| **[Nano Banana 2](https://apimodels.app/models/nanobanana2)** | **$0.05** / image (1K–2K) | **−25%** | Gemini 3.1 Flash Image — fast and cheap |
+| [Nano Banana 2 Lite](https://apimodels.app/models/nanobanana-2-lite) | **$0.025** / image (flat) | **−62%** | Cheapest tier, 1K output |
+| **[Nano Banana Pro](https://apimodels.app/models/nanobananapro)** | **$0.06** / image | **−55%** | Gemini 3 Pro — best fidelity, 99% success rate |
+| [Nano Banana Pro Lite](https://apimodels.app/models/nanobananapro-lite) | **$0.06** / image | **−55%** | Pro quality, lighter tier, 97% success rate |
+| [Gemini 3 Pro Image](https://apimodels.app/models/gemini-3-pro-image) | **$0.10** / image (1K–2K) | **−25%** | GA release, advanced reasoning |
+| [Gemini 3.1 Flash Image](https://apimodels.app/models/gemini-3.1-flash-image) | **$0.04** / image (512px) | **−40%** | Low latency, conversational editing |
 
 **[957 GPT Image 2 prompts →](https://apimodels.app/gpt-image-2-prompts)** — a second
 library, same idea: every prompt with the image it rendered, browsable by category.
 
-### Video models
+### Video models — from **$0.044** per second
 
-| Model | Page | Notes |
-|---|---|---|
-| **Seedance 2.0** | [seedance-2.0](https://apimodels.app/models/seedance-2.0) | ByteDance official channel, per-second pricing |
-| **Kling V3** | [kling-v3](https://apimodels.app/models/kling-v3) | Image-to-video and motion control |
-| **VEO 3.1** | [veo-3.1](https://apimodels.app/models/veo-3.1) | Google VEO with generated audio |
+| Model | From | vs official list | What it is |
+|---|---|---|---|
+| **[Seedance 2.0](https://apimodels.app/models/seedance-2.0)** | **$0.092** / s | — | ByteDance official Ark: 9 reference images + reference video + audio |
+| [Seedance 2.0 Fast](https://apimodels.app/models/seedance-2.0-fast) | **$0.071** / s | — | Same capability, speed/cost tier |
+| [Seedance 2.0 Mini](https://apimodels.app/models/seedance-2.0-mini) | **$0.044** / s | — | Cheapest Seedance tier |
+| **[Kling V3](https://apimodels.app/models/kling-v3)** | **$0.12** / s | — | 3–15s, text- and image-to-video, optional audio |
+| **[VEO 3.1 Fast](https://apimodels.app/models/veo-3.1-fast-fhd)** | **$0.07** / 8s clip (1080p) | **−90%** | Budget VEO, full HD |
+| [VEO 3.1](https://apimodels.app/models/veo-3.1) | **$1.00** / 8s clip (1080p) | — | Premium standard tier |
+
+Seedance and Kling are billed per second of output; there is no discount column because we
+price them off the upstream token cost rather than against a list price. All prices are
+pay-as-you-go — no subscription, no monthly minimum, **$1 free on sign-up**.
 
 Full list: **[apimodels.app/models](https://apimodels.app/models)** ·
 API docs: **[apimodels.app/docs](https://apimodels.app/docs)** ·

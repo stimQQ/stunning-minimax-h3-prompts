@@ -2,6 +2,7 @@
 
 [![画廊](https://img.shields.io/badge/224%20条提示词%20·%20带视频-F5FF60?labelColor=111)](https://apimodels.app/zh/minimax-h3-prompts)
 [![统一 API](https://img.shields.io/badge/一个%20API-85%2B%20模型-3158E8)](https://apimodels.app/zh/models)
+[![价格](https://img.shields.io/badge/图片%20%240.01%20起%20%C2%B7%20视频%20%240.044%2F秒起-1f9e5f)](https://apimodels.app/zh/pricing)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 **MiniMax H3**（海螺 3.0）提示词库。每条提示词都配着它真正生成出来的那段视频，
@@ -34,29 +35,35 @@ MiniMax H3 目前走 MiniMax 官方 API 和海螺产品，约 **$0.13/秒起**�
 下面这些图像和视频模型**已经**在我们的统一 API 上：一个 key、一个端点、按量付费，
 **注册送 $1**，不用订阅。
 
-### 图像模型
+### 图像模型 —— **$0.01** 一张起
 
-| 模型 | 页面 | 说明 |
-|---|---|---|
-| **GPT Image 2** | [gpt-image-2](https://apimodels.app/zh/models/gpt-image-2) | 原生 1K / 2K / 4K，图上文字准 |
-| GPT Image 2（全档位） | [gpt-image-2-all](https://apimodels.app/zh/models/gpt-image-2-all) | 一个模型串覆盖所有分辨率/质量档 |
-| **Nano Banana 2** | [nanobanana2](https://apimodels.app/zh/models/nanobanana2) | Gemini 图像生成，又快又便宜 |
-| Nano Banana 2 Lite | [nanobanana-2-lite](https://apimodels.app/zh/models/nanobanana-2-lite) | 最便宜的档位 |
-| **Nano Banana Pro** | [nanobananapro](https://apimodels.app/zh/models/nanobananapro) | 香蕉系列里画质最高的 |
-| Nano Banana Pro Lite | [nanobananapro-lite](https://apimodels.app/zh/models/nanobananapro-lite) | Pro 的画质，更低的档位 |
-| Gemini 3 Pro Image | [gemini-3-pro-image](https://apimodels.app/zh/models/gemini-3-pro-image) | 支持参考图，指令跟随强 |
-| Gemini 3.1 Flash Image | [gemini-3.1-flash-image](https://apimodels.app/zh/models/gemini-3.1-flash-image) | Gemini 图像线里最快的 |
+| 模型 | 最低价 | 对比官方 | 是什么 |
+|---|---|---|---|
+| **[GPT Image 2](https://apimodels.app/zh/models/gpt-image-2)** | **$0.025** / 张（1K） | **−53%** | 原生 1K / 2K / 4K，图上文字准 |
+| [GPT Image 2（全档位）](https://apimodels.app/zh/models/gpt-image-2-all) | **$0.01** / 张 | **−53%** | 一个模型串覆盖所有分辨率 × 质量档 |
+| **[Nano Banana 2](https://apimodels.app/zh/models/nanobanana2)** | **$0.05** / 张（1K–2K） | **−25%** | Gemini 3.1 Flash Image，又快又便宜 |
+| [Nano Banana 2 Lite](https://apimodels.app/zh/models/nanobanana-2-lite) | **$0.025** / 张（统一价） | **−62%** | 最便宜的档位，1K 输出 |
+| **[Nano Banana Pro](https://apimodels.app/zh/models/nanobananapro)** | **$0.06** / 张 | **−55%** | Gemini 3 Pro，画质最好，成功率 99% |
+| [Nano Banana Pro Lite](https://apimodels.app/zh/models/nanobananapro-lite) | **$0.06** / 张 | **−55%** | Pro 画质，更轻的档位，成功率 97% |
+| [Gemini 3 Pro Image](https://apimodels.app/zh/models/gemini-3-pro-image) | **$0.10** / 张（1K–2K） | **−25%** | GA 正式版，带推理能力 |
+| [Gemini 3.1 Flash Image](https://apimodels.app/zh/models/gemini-3.1-flash-image) | **$0.04** / 张（512px） | **−40%** | 低延迟，支持对话式编辑 |
 
 **[957 条 GPT Image 2 提示词 →](https://apimodels.app/zh/gpt-image-2-prompts)** ——
 同一套做法的第二个库：每条提示词都配着它生成出来的那张图，按类目浏览。
 
-### 视频模型
+### 视频模型 —— **$0.044** 一秒起
 
-| 模型 | 页面 | 说明 |
-|---|---|---|
-| **Seedance 2.0** | [seedance-2.0](https://apimodels.app/zh/models/seedance-2.0) | 字节官方渠道，按秒计费 |
-| **Kling V3** | [kling-v3](https://apimodels.app/zh/models/kling-v3) | 图生视频与动作控制 |
-| **VEO 3.1** | [veo-3.1](https://apimodels.app/zh/models/veo-3.1) | 谷歌 VEO，带生成音频 |
+| 模型 | 最低价 | 对比官方 | 是什么 |
+|---|---|---|---|
+| **[Seedance 2.0](https://apimodels.app/zh/models/seedance-2.0)** | **$0.092** / 秒 | — | 字节官方 Ark 直连：9 张参考图 + 参考视频 + 参考音频 |
+| [Seedance 2.0 Fast](https://apimodels.app/zh/models/seedance-2.0-fast) | **$0.071** / 秒 | — | 能力相同的提速降本档 |
+| [Seedance 2.0 Mini](https://apimodels.app/zh/models/seedance-2.0-mini) | **$0.044** / 秒 | — | Seedance 里最便宜的档位 |
+| **[Kling V3](https://apimodels.app/zh/models/kling-v3)** | **$0.12** / 秒 | — | 3–15 秒，文生/图生视频，可带音频 |
+| **[VEO 3.1 Fast](https://apimodels.app/zh/models/veo-3.1-fast-fhd)** | **$0.07** / 8 秒片（1080p） | **−90%** | 平价 VEO，全高清 |
+| [VEO 3.1](https://apimodels.app/zh/models/veo-3.1) | **$1.00** / 8 秒片（1080p） | — | 高端标准档 |
+
+Seedance 和 Kling 按出片秒数计费，不列折扣列 —— 它们的价格是按上游 token 成本推的，
+不是对着一个标价打折。全部按量付费，不订阅、无月最低消费，**注册送 $1**。
 
 全部模型：**[apimodels.app/models](https://apimodels.app/zh/models)** ·
 API 文档：**[apimodels.app/docs](https://apimodels.app/zh/docs)** ·
