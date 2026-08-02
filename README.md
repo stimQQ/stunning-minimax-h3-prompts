@@ -121,7 +121,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 
 ### 1. Concrete-Plaza Kickflip Drop
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboram6001z04kzkda7f0i4"><img src="https://pbs.twimg.com/amplify_video_thumb/2082683540429586432/img/ygYWxxtzYyXfqa26.jpg" alt="Concrete-Plaza Kickflip Drop" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboram6001z04kzkda7f0i4"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsboram6001z04kzkda7f0i4.webp" alt="Concrete-Plaza Kickflip Drop" width="700" /></a>
 
 <strong>Prompt</strong> — プロンプト SCENE CONTEXT Late afternoon, empty two-level concrete plaza. A young woman skateboarder rolls along the raised upper deck to its edge and launches off the TOP of a 10-step stair set with a kick…
 
@@ -134,7 +134,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 2. Y2K K-Pop Candy Typography Music Video
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsbor5eu001q04kz1zhzjtoi"><img src="https://pbs.twimg.com/amplify_video_thumb/2083240391483248640/img/h0WIFWLrpMCb16FL.jpg" alt="Y2K K-Pop Candy Typography Music Video" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsbor5eu001q04kz1zhzjtoi"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsbor5eu001q04kz1zhzjtoi.webp" alt="Y2K K-Pop Candy Typography Music Video" width="700" /></a>
 
 <strong>Prompt</strong> — Soft cute Y2K crush K-pop girl group rap MV. High fashion performance film mixed with inflated 3D candy typography graphic system. Three female idols wearing pink, blue and purple luxury Y2K stage out…
 
@@ -147,7 +147,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 3. Cyberpunk Ice-Blue Character Awakening
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboqaem000j04kz9ysbqup1"><img src="https://pbs.twimg.com/amplify_video_thumb/2082829859945095168/img/mZ8MZFbcc58C1feK.jpg" alt="Cyberpunk Ice-Blue Character Awakening" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboqaem000j04kz9ysbqup1"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsboqaem000j04kz9ysbqup1.webp" alt="Cyberpunk Ice-Blue Character Awakening" width="700" /></a>
 
 <strong>Prompt</strong> — Use the uploaded image as the exact source image and first frame. Preserve the original character design, composition, face, pale skin, glowing icy blue eyes, braided black hair, cybernetic head impla…
 
@@ -160,7 +160,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 4. Infinite Cycle of the Blade
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb2bmyp00010akoxbpa7b9m"><img src="https://pbs.twimg.com/amplify_video_thumb/2082772865410338816/img/wQZjhenyhl6nJlWM.jpg" alt="Infinite Cycle of the Blade" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb2bmyp00010akoxbpa7b9m"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsb2bmyp00010akoxbpa7b9m.webp" alt="Infinite Cycle of the Blade" width="700" /></a>
 
 <strong>Prompt</strong> — @image1 15s | 16:9 | 1440p | 24fps | SEAMLESS LOOP [LOCK] Render exactly as @image1. Do not alter hair, bangs, eye color, coat silhouette, sash, hilt ornament, or blade proportion. [LOOP] A perfect cy…
 
@@ -173,7 +173,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 5. Desert Buggy Combat Chase
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboq2ab000904kzun2m0c72"><img src="https://pbs.twimg.com/amplify_video_thumb/2083039329493135360/img/G2Jr6XxTw8dP-SZ3.jpg" alt="Desert Buggy Combat Chase" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboq2ab000904kzun2m0c72"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsboq2ab000904kzun2m0c72.webp" alt="Desert Buggy Combat Chase" width="700" /></a>
 
 <strong>Prompt</strong> — Create a 15-second, 16:9 photoreal cinematic action sequence with native stereo audio. Treat the five images as coordinated multimodal references for identity, vehicle design, environment, performance…
 
@@ -186,7 +186,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 6. Mona Lisa Character Selection Screen
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb20d0h000004l9pu7c8r0i"><img src="https://pbs.twimg.com/amplify_video_thumb/2083552730233114624/img/zZaVXYLxeHSBXpiF.jpg" alt="Mona Lisa Character Selection Screen" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb20d0h000004l9pu7c8r0i"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsb20d0h000004l9pu7c8r0i.webp" alt="Mona Lisa Character Selection Screen" width="700" /></a>
 
 <strong>Prompt</strong> — Use @Image 1 for the character and the menu interface style. Use @Image 2 for the game world and the in-game HUD style. Use @Image 3 as the source for every item thumbnail shown inside the panels — it…
 
@@ -199,7 +199,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 7. Desert Standoff — 15s single take
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsabne9r000204la2ozvzj4z"><img src="https://pbs.twimg.com/amplify_video_thumb/2082560936645152769/img/1mJ8RYmFcQdGZZbA.jpg" alt="Desert Standoff — 15s single take" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsabne9r000204la2ozvzj4z"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsabne9r000204la2ozvzj4z.webp" alt="Desert Standoff — 15s single take" width="700" /></a>
 
 <strong>Prompt</strong> — SCENE CONTEXT A middle-aged man stands in the middle of a dirt road in open desert and holds a pistol level at the person filming him. He gives an instruction, is answered by name, and warns them not …
 
@@ -212,7 +212,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 8. Seamless-loop cinematic warrior blade reconstruction
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboq6wq000e04kz9dl0yo7y"><img src="https://pbs.twimg.com/amplify_video_thumb/2082933612463210497/img/kWpEnLDDmzRCZrKR.jpg" alt="Seamless-loop cinematic warrior blade reconstruction" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboq6wq000e04kz9dl0yo7y"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsboq6wq000e04kz9dl0yo7y.webp" alt="Seamless-loop cinematic warrior blade reconstruction" width="700" /></a>
 
 <strong>Prompt</strong> — @Image1 15s | 16:9 | 1440p | 24fps | PERFECT SEAMLESS LOOP [REFERENCE LOCK] Render exactly as @image1. Preserve the character exactly as shown. Do not redesign, reinterpret, or modify any aspect of he…
 
@@ -225,7 +225,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 9. KALDR cold perfume commercial multi-reference
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboqtzf001b04kzcll6fe7k"><img src="https://pbs.twimg.com/amplify_video_thumb/2082918243002695680/img/a7ztEfHR51KLKlzI.jpg" alt="KALDR cold perfume commercial multi-reference" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsboqtzf001b04kzcll6fe7k"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsboqtzf001b04kzcll6fe7k.webp" alt="KALDR cold perfume commercial multi-reference" width="700" /></a>
 
 <strong>Prompt</strong> — REFERENCE USAGE: Image 1 — the KALDR bottle. Preserve the smoked charcoal glass, bevelled edges, pale blue liquid, brushed gunmetal cap and the etched silver KALDR mark exactly. Image 2 — the closing …
 
@@ -238,7 +238,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 10. Fantasy MMORPG Gameplay Reveal
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb4xgx4000d04l10xty7iwb"><img src="https://pbs.twimg.com/amplify_video_thumb/2083085291691319296/img/zEXiiVypelJy1CeR.jpg" alt="Fantasy MMORPG Gameplay Reveal" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb4xgx4000d04l10xty7iwb"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsb4xgx4000d04l10xty7iwb.webp" alt="Fantasy MMORPG Gameplay Reveal" width="700" /></a>
 
 <strong>Prompt</strong> — [FORMAT] Exactly 15 seconds, horizontal 16:9, photorealistic AAA fantasy MMORPG gameplay reveal with native synchronized game audio and music. [OMNI REFERENCES] [Image1] = Kael Ardyn, the exact playab…
 
@@ -251,7 +251,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 11. Sitcom Game Show Choice
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb47v5o000304l1j6q1veqt"><img src="https://pbs.twimg.com/amplify_video_thumb/2083130633048694784/img/6bfTlMdE8iKutjpq.jpg" alt="Sitcom Game Show Choice" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb47v5o000304l1j6q1veqt"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsb47v5o000304l1j6q1veqt.webp" alt="Sitcom Game Show Choice" width="700" /></a>
 
 <strong>Prompt</strong> — [FORMAT] Exactly 15 seconds, horizontal 16:9, photorealistic multi-camera television sitcom with native synchronized dialogue, audience reactions, SFX and music. [OMNI REFERENCES — [Image1] [Image2] […
 
@@ -264,7 +264,7 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ### 12. Divine Ascension Web Interface
 
-<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb2guus00000ajfae9hxtax"><img src="https://pbs.twimg.com/amplify_video_thumb/2083087808584101888/img/YJQUBTO4YrEgmQRA.jpg" alt="Divine Ascension Web Interface" width="700" /></a>
+<a href="https://apimodels.app/minimax-h3-prompts#prompt-cmsb2guus00000ajfae9hxtax"><img src="https://raw.githubusercontent.com/stimQQ/stunning-minimax-h3-prompts/main/assets/previews/cmsb2guus00000ajfae9hxtax.webp" alt="Divine Ascension Web Interface" width="700" /></a>
 
 <strong>Prompt</strong> — 15秒 | 16:9 | 1440p | 24fps | 无缝循环 | 网页首屏动画 [人物锁定 · @image1] 完全按照该参考图呈现，不进行任何重新设计。金色卷发、闭合的双眼、仰起的面容与安详神情；象牙色垂坠长袍；左右两枚金色玫瑰花章肩甲，含中心宝石与放射浮雕；金丝胸饰、十字垂饰、多层珠链；水晶巨剑，含金色巴洛克护手与剑柄头、缠绕剑柄，双臂高举过头横持，金色火柱自上贯入；白色大理石圆台；下…
 
