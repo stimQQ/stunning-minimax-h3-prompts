@@ -26,6 +26,55 @@
 
 ---
 
+## 怎么跑这些提示词
+
+MiniMax H3 目前走 MiniMax 官方 API 和海螺产品，约 **$0.13/秒起**。它**还没有在 apimodels.app 上线** ——
+没调通的模型我们不上架。等它能跑了就上，这个仓库同一天更新。
+
+下面这些图像和视频模型**已经**在我们的统一 API 上：一个 key、一个端点、按量付费，
+**注册送 $1**，不用订阅。
+
+### 图像模型
+
+| 模型 | 页面 | 说明 |
+|---|---|---|
+| **GPT Image 2** | [gpt-image-2](https://apimodels.app/zh/models/gpt-image-2) | 原生 1K / 2K / 4K，图上文字准 |
+| GPT Image 2（全档位） | [gpt-image-2-all](https://apimodels.app/zh/models/gpt-image-2-all) | 一个模型串覆盖所有分辨率/质量档 |
+| **Nano Banana 2** | [nanobanana2](https://apimodels.app/zh/models/nanobanana2) | Gemini 图像生成，又快又便宜 |
+| Nano Banana 2 Lite | [nanobanana-2-lite](https://apimodels.app/zh/models/nanobanana-2-lite) | 最便宜的档位 |
+| **Nano Banana Pro** | [nanobananapro](https://apimodels.app/zh/models/nanobananapro) | 香蕉系列里画质最高的 |
+| Nano Banana Pro Lite | [nanobananapro-lite](https://apimodels.app/zh/models/nanobananapro-lite) | Pro 的画质，更低的档位 |
+| Gemini 3 Pro Image | [gemini-3-pro-image](https://apimodels.app/zh/models/gemini-3-pro-image) | 支持参考图，指令跟随强 |
+| Gemini 3.1 Flash Image | [gemini-3.1-flash-image](https://apimodels.app/zh/models/gemini-3.1-flash-image) | Gemini 图像线里最快的 |
+
+**[957 条 GPT Image 2 提示词 →](https://apimodels.app/zh/gpt-image-2-prompts)** ——
+同一套做法的第二个库：每条提示词都配着它生成出来的那张图，按类目浏览。
+
+### 视频模型
+
+| 模型 | 页面 | 说明 |
+|---|---|---|
+| **Seedance 2.0** | [seedance-2.0](https://apimodels.app/zh/models/seedance-2.0) | 字节官方渠道，按秒计费 |
+| **Kling V3** | [kling-v3](https://apimodels.app/zh/models/kling-v3) | 图生视频与动作控制 |
+| **VEO 3.1** | [veo-3.1](https://apimodels.app/zh/models/veo-3.1) | 谷歌 VEO，带生成音频 |
+
+全部模型：**[apimodels.app/models](https://apimodels.app/zh/models)** ·
+API 文档：**[apimodels.app/docs](https://apimodels.app/zh/docs)** ·
+代码示例：**[apimodels-api-demo](https://github.com/stimQQ/apimodels-api-demo)**
+
+### 30 秒上手
+
+一个端点、一个 key，换模型只改 model 这一个字段：
+
+```bash
+curl -X POST https://apimodels.app/api/v1/images/generations-sync \
+  -H "Authorization: Bearer $APIMODELS_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"gpt-image-2-all","prompt":"a frosted glass serum bottle on wet travertine, soft daylight","aspect_ratio":"4:5","resolution":"1K"}'
+```
+
+---
+
 ## 两类提示词，分得很清楚
 
 | | 数量 | 是什么 |
@@ -211,6 +260,12 @@
 ---
 ---
 
+> **喜欢这些片子？** 它们是 MiniMax H3 生成的，这个模型我们还没上线 —— 但
+> [GPT Image 2、Nano Banana Pro、Seedance 2.0、Kling V3 等 85+ 个模型](https://apimodels.app/zh/models)
+> 已经在 **[apimodels.app](https://apimodels.app)** 上跑，一个 key 全调，注册送 $1。
+
+---
+
 ## 仓库结构
 
 | 路径 | 内容 |
@@ -218,32 +273,6 @@
 | [`prompts/GALLERY.zh-CN.md`](./prompts/GALLERY.zh-CN.md) | 全部 222 条：缩略图 + 提示词 + 来源，也就是上面精选段的完整版 |
 | [`prompts/GALLERY.md`](./prompts/GALLERY.md) | 同一份画廊的英文版 |
 | [`prompts/<分类>/`](./prompts) | 72 条 AI 反推提示词的单文件版本，按用途分目录，方便 grep，MIT |
-
----
-
-## 怎么跑这些提示词
-
-MiniMax H3 目前走 MiniMax 官方 API 和海螺产品，约 **$0.13/秒起**。它**还没有在 apimodels.app 上线** ——
-没调通的模型我们不上架。等它能跑了就上，这个仓库同一天更新。
-
-下面这些图像和视频模型**已经**在我们的统一 API 上：一个 key、一个端点、按量付费，注册送 $1。
-
-| 图像 | 视频 |
-|---|---|
-| [GPT Image 2](https://apimodels.app/zh/models/gpt-image-2) · [全档位](https://apimodels.app/zh/models/gpt-image-2-all) | [Seedance 2.0](https://apimodels.app/zh/models/seedance-2.0) |
-| [Nano Banana 2](https://apimodels.app/zh/models/nanobanana2) · [2 Lite](https://apimodels.app/zh/models/nanobanana-2-lite) | [Kling V3](https://apimodels.app/zh/models/kling-v3) |
-| [Nano Banana Pro](https://apimodels.app/zh/models/nanobananapro) · [Pro Lite](https://apimodels.app/zh/models/nanobananapro-lite) | [VEO 3.1](https://apimodels.app/zh/models/veo-3.1) |
-| [Gemini 3 Pro Image](https://apimodels.app/zh/models/gemini-3-pro-image) · [3.1 Flash Image](https://apimodels.app/zh/models/gemini-3.1-flash-image) | [全部模型 →](https://apimodels.app/zh/models) |
-
-```bash
-curl -X POST https://apimodels.app/api/v1/images/generations-sync \
-  -H "Authorization: Bearer $APIMODELS_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"model":"gpt-image-2-all","prompt":"a frosted glass serum bottle on wet travertine, soft daylight","aspect_ratio":"4:5","resolution":"1K"}'
-```
-
-**[957 条 GPT Image 2 提示词 →](https://apimodels.app/zh/gpt-image-2-prompts)** —— 同一套做法的第二个库。 ·
-[API 文档](https://apimodels.app/zh/docs) · [代码示例](https://github.com/stimQQ/apimodels-api-demo)
 
 ---
 

@@ -30,6 +30,56 @@ generative editing.
 
 ---
 
+## Run these prompts
+
+MiniMax H3 currently runs through MiniMax's own API and the Hailuo product, from roughly
+**$0.13/second**. It is **not yet available through apimodels.app** — we do not list models
+we have not got working. When it runs, it ships, and this repo gets updated the same day.
+
+Meanwhile the image and video models below **are** live on our unified API — one key, one
+endpoint, pay as you go, **$1 free on sign-up**, no subscription.
+
+### Image models
+
+| Model | Page | Notes |
+|---|---|---|
+| **GPT Image 2** | [gpt-image-2](https://apimodels.app/models/gpt-image-2) | Native 1K / 2K / 4K, accurate on-image text |
+| GPT Image 2 (all tiers) | [gpt-image-2-all](https://apimodels.app/models/gpt-image-2-all) | Every resolution/quality tier on one model string |
+| **Nano Banana 2** | [nanobanana2](https://apimodels.app/models/nanobanana2) | Gemini image generation, fast and cheap |
+| Nano Banana 2 Lite | [nanobanana-2-lite](https://apimodels.app/models/nanobanana-2-lite) | Cheapest tier |
+| **Nano Banana Pro** | [nanobananapro](https://apimodels.app/models/nanobananapro) | Highest fidelity of the Banana line |
+| Nano Banana Pro Lite | [nanobananapro-lite](https://apimodels.app/models/nanobananapro-lite) | Pro quality at a lower tier |
+| Gemini 3 Pro Image | [gemini-3-pro-image](https://apimodels.app/models/gemini-3-pro-image) | Reference images, strong prompt adherence |
+| Gemini 3.1 Flash Image | [gemini-3.1-flash-image](https://apimodels.app/models/gemini-3.1-flash-image) | Fastest of the Gemini image line |
+
+**[957 GPT Image 2 prompts →](https://apimodels.app/gpt-image-2-prompts)** — a second
+library, same idea: every prompt with the image it rendered, browsable by category.
+
+### Video models
+
+| Model | Page | Notes |
+|---|---|---|
+| **Seedance 2.0** | [seedance-2.0](https://apimodels.app/models/seedance-2.0) | ByteDance official channel, per-second pricing |
+| **Kling V3** | [kling-v3](https://apimodels.app/models/kling-v3) | Image-to-video and motion control |
+| **VEO 3.1** | [veo-3.1](https://apimodels.app/models/veo-3.1) | Google VEO with generated audio |
+
+Full list: **[apimodels.app/models](https://apimodels.app/models)** ·
+API docs: **[apimodels.app/docs](https://apimodels.app/docs)** ·
+Code examples: **[apimodels-api-demo](https://github.com/stimQQ/apimodels-api-demo)**
+
+### 30-second start
+
+One endpoint, one key, and the model name is the only thing that changes between models:
+
+```bash
+curl -X POST https://apimodels.app/api/v1/images/generations-sync \
+  -H "Authorization: Bearer $APIMODELS_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"gpt-image-2-all","prompt":"a frosted glass serum bottle on wet travertine, soft daylight","aspect_ratio":"4:5","resolution":"1K"}'
+```
+
+---
+
 ## Two kinds of prompt, kept clearly apart
 
 | | Count | What it is |
@@ -218,6 +268,12 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 ---
 ---
 
+> **Liked these?** The clips were made with MiniMax H3, which we do not run yet — but
+> [GPT Image 2, Nano Banana Pro, Seedance 2.0, Kling V3 and 85+ more](https://apimodels.app/models)
+> are live on one API key at **[apimodels.app](https://apimodels.app)**, $1 free to start.
+
+---
+
 ## Repository layout
 
 | Path | What is in it |
@@ -225,35 +281,6 @@ The twelve longest author-written prompts in the library. **[See all 222 →](./
 | [`prompts/GALLERY.md`](./prompts/GALLERY.md) | All 222 entries with thumbnail, prompt and source — the full version of the featured section above |
 | [`prompts/GALLERY.zh-CN.md`](./prompts/GALLERY.zh-CN.md) | Same gallery in Chinese |
 | [`prompts/<category>/`](./prompts) | The 72 reconstructed prompts as individual `.md` files, grouped by use case — grep-friendly, MIT |
-
----
-
-## Run these prompts
-
-MiniMax H3 currently runs through MiniMax's own API and the Hailuo product, from roughly
-**$0.13/second**. It is **not yet available through apimodels.app** — we do not list models
-we have not got working. When it runs, it ships, and this repo gets updated the same day.
-
-These image and video models **are** live on our unified API — one key, one endpoint, pay
-as you go, $1 free on sign-up:
-
-| Image | Video |
-|---|---|
-| [GPT Image 2](https://apimodels.app/models/gpt-image-2) · [all tiers](https://apimodels.app/models/gpt-image-2-all) | [Seedance 2.0](https://apimodels.app/models/seedance-2.0) |
-| [Nano Banana 2](https://apimodels.app/models/nanobanana2) · [2 Lite](https://apimodels.app/models/nanobanana-2-lite) | [Kling V3](https://apimodels.app/models/kling-v3) |
-| [Nano Banana Pro](https://apimodels.app/models/nanobananapro) · [Pro Lite](https://apimodels.app/models/nanobananapro-lite) | [VEO 3.1](https://apimodels.app/models/veo-3.1) |
-| [Gemini 3 Pro Image](https://apimodels.app/models/gemini-3-pro-image) · [3.1 Flash Image](https://apimodels.app/models/gemini-3.1-flash-image) | [All models →](https://apimodels.app/models) |
-
-```bash
-curl -X POST https://apimodels.app/api/v1/images/generations-sync \
-  -H "Authorization: Bearer $APIMODELS_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"model":"gpt-image-2-all","prompt":"a frosted glass serum bottle on wet travertine, soft daylight","aspect_ratio":"4:5","resolution":"1K"}'
-```
-
-**[957 GPT Image 2 prompts →](https://apimodels.app/gpt-image-2-prompts)** — a second
-library, same idea. · [API docs](https://apimodels.app/docs) ·
-[Code examples](https://github.com/stimQQ/apimodels-api-demo)
 
 ---
 
