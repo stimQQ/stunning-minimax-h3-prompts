@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stunning MiniMax H3 Prompts — open prompt library</title>
+<meta name="description" content="An open library of MiniMax H3 (Hailuo 3.0) video prompts, each paired with the clip it produced. Browse the full gallery with playable video at apimodels.app.">
+<link rel="canonical" href="https://stimqq.github.io/stunning-minimax-h3-prompts/">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#0a0a0f; color:rgba(255,255,255,.72);
+         font:16px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; }
+  .wrap { max-width: 720px; margin:0 auto; padding:64px 24px 80px; }
+  h1 { color:#fff; font-size:30px; line-height:1.3; margin:0 0 8px; }
+  .sub { color:rgba(255,255,255,.45); margin:0 0 32px; }
+  h2 { color:#fff; font-size:19px; line-height:1.4; margin:44px 0 12px; }
+  a { color:#F5FF60; }
+  p { margin:0 0 18px; }
+  ul { padding-left:20px; margin:0 0 18px; }
+  li { margin-bottom:8px; }
+  .cta { display:inline-block; margin:10px 12px 10px 0; padding:12px 20px; border-radius:10px;
+         background:#F5FF60; color:#111; font-weight:600; text-decoration:none; }
+  .cta.alt { background:rgba(255,255,255,.06); color:#fff; border:1px solid rgba(255,255,255,.16); }
+  .foot { margin-top:56px; padding-top:24px; border-top:1px solid rgba(255,255,255,.08);
+          font-size:14px; color:rgba(255,255,255,.4); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Stunning MiniMax H3 Prompts</h1>
+  <p class="sub">An open collection of prompts for MiniMax H3 (Hailuo 3.0), the video model ByteDance released on 31 July 2026.</p>
+
+  <p>Video prompting is mostly folklore. Almost every prompt you find online is text with nothing attached — no clip, no credit, no way to tell whether it produced anything worth having. This library exists because that gap is fixable: every prompt here is stored next to the video it actually generated, and credited to whoever wrote it.</p>
+
+  <p>The collection is maintained as a dataset in this repository and published as a browsable gallery, where each clip plays with its native audio.</p>
+
+  <p>
+    <a class="cta" href="https://apimodels.app/minimax-h3-prompts">Browse the gallery</a>
+    <a class="cta alt" href="https://github.com/stimQQ/stunning-minimax-h3-prompts">View the repository</a>
+  </p>
+
+  <h2>How it is put together</h2>
+  <ul>
+    <li><strong>Author-written prompts</strong> are indexed with credit and a link to the original post. We do not own them, so we point at them rather than relicensing them.</li>
+    <li><strong>Reconstructed prompts</strong> cover clips whose author never published one. Eight frames are sampled and handed to a vision model, and the result is labelled as reconstructed — it describes the output, so it cannot recover negative constraints or reference-image workflows. Those are MIT licensed and included in full.</li>
+    <li>Prompts stay in the language their author wrote them in. A translated prompt does not generate the same clip.</li>
+  </ul>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="https://apimodels.app/blog/seedance-2-5-prompting-guide">The Seedance 2.5 prompting guide in English</a> — ByteDance's official manual, walked through with every template kept.</li>
+    <li><a href="https://apimodels.app/gpt-image-2-prompts">957 GPT Image 2 prompts</a> — the same idea for image generation, each prompt with the image it rendered.</li>
+    <li><a href="https://apimodels.app/models">Models and pricing</a> — one API key across image, video and language models.</li>
+  </ul>
+
+  <h2>Contributing</h2>
+  <p>Seen a good H3 clip? Open an issue with the link. If the creator published the prompt it gets indexed with credit; if not, it can be reconstructed and labelled as such. Creators who want an entry removed can open an issue too.</p>
+
+  <div class="foot">
+    Maintained alongside <a href="https://apimodels.app">apimodels.app</a>.
+    Reconstructed prompts are MIT; author-written prompts belong to their authors.
+  </div>
+
+</div>
+</body>
+</html>
